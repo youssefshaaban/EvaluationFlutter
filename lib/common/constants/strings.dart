@@ -1,0 +1,85 @@
+// DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
+// ignore_for_file: constant_identifier_names
+
+abstract class  LocaleKeys {
+  static const onBoardingTitleOne = 'onBoardingTitleOne';
+  static const onBoardingDescriptionOne = 'onBoardingDescriptionOne';
+  static const onBoardingTitleTwo = 'onBoardingTitleTwo';
+  static const onBoardingDescriptionTwo = 'onBoardingDescriptionTwo';
+  static const onBoardingTitleThree = 'onBoardingTitleThree';
+  static const onBoardingDescriptionThree = 'onBoardingDescriptionThree';
+  static const start = 'start';
+  static const next = 'next';
+  static const skip = 'skip';
+  static const noNetworkError = 'noNetworkError';
+  static const generalError = 'generalError';
+  static const noDataError = 'noDataError';
+  static const tryAgainDataError = 'tryAgainDataError';
+  static const tryAgain = 'tryAgain';
+  static const login = 'login';
+  static const welcomeBack = 'welcomeBack';
+  static const enterYourEmail = 'enterYourEmail';
+  static const companyCode = 'companyCode';
+  static const enterYourPassword = 'enterYourPassword';
+  static const orLoginWith = 'orLoginWith';
+  static const dontHaveAnAccount = 'dontHaveAnAccount';
+  static const registerNow = 'registerNow';
+  static const forgetPassword = 'forgetPassword';
+  static const dontWorry = 'dontWorry';
+  static const enteryourPhoneNumber = 'enteryourPhoneNumber';
+  static const oTPVerification = 'oTPVerification';
+  static const enterTheVerificationCode = 'enterTheVerificationCode';
+  static const createNewPassword = 'createNewPassword';
+  static const yourNewPassword = 'yourNewPassword';
+  static const resetPassword = 'resetPassword';
+  static const newPassword = 'newPassword';
+  static const confirmPassword = 'confirmPassword';
+  static const passwordChanged = 'passwordChanged';
+  static const yourPasswordHasBeenChanged = 'yourPasswordHasBeenChanged';
+  static const backToLogin = 'backToLogin';
+  static const emailEmptyErrorMsg = 'emailEmptyErrorMsg';
+  static const passwordEmptyErrorMsg = 'passwordEmptyErrorMsg';
+  static const biometricAuthentication = 'biometricAuthentication';
+  static const pleaseAuthenticate = 'pleaseAuthenticate';
+  static const noCredentialsFound = 'noCredentialsFound';
+  static const authenticationFailed = 'authenticationFailed';
+  static const saveCredentials = 'saveCredentials';
+  static const doYouWantToSaveYourCredentials = 'doYouWantToSaveYourCredentials';
+  static const youCanLogInManually = 'youCanLogInManually';
+  static const Deny = 'Deny';
+  static const Allow = 'Allow';
+  static const nFCIsNotEnabled = 'nFCIsNotEnabled';
+  static const noValidNDEF = 'noValidNDEF';
+  static const nDEFNotSupported = 'nDEFNotSupported';
+  static const errorReadingNFCTag = 'errorReadingNFCTag';
+  static const errorStartingNFCSession = 'errorStartingNFCSession';
+  static const createAccount = 'createAccount';
+  static const enterYourDetails = 'enterYourDetails';
+  static const yourName = 'yourName';
+  static const phoneNumber = 'phoneNumber';
+  static const addExtension = 'addExtension';
+  static const signUp = 'signUp';
+  static const alreadyHaveAnAccount = 'alreadyHaveAnAccount';
+  static const uploadYourPhoto = 'uploadYourPhoto';
+  static const firstNameErrorMsg = 'firstNameErrorMsg';
+  static const lastNameErrorMsg = 'lastNameErrorMsg';
+  static const fullNameErrorMsg = 'fullNameErrorMsg';
+  static const emailErrorMsg = 'emailErrorMsg';
+  static const phoneErrorMsg = 'phoneErrorMsg';
+  static const passwordErrorMsg = 'passwordErrorMsg';
+  static const referancePhotoErrorMsg = 'referancePhotoErrorMsg';
+  static const companyExtensionErrorMsg = 'companyExtensionErrorMsg';
+  static const welcomeToOurApp = 'welcomeToOurApp';
+  static const greetingsAndThankYou = 'greetingsAndThankYou';
+  static const firstName = 'firstName';
+  static const lastName = 'lastName';
+  static const errorNoFacesDetected = 'errorNoFacesDetected';
+  static const errorTheImageContainsmore = 'errorTheImageContainsmore';
+  static const error = 'error';
+  static const camera = 'camera';
+  static const photoLibrary = 'photoLibrary';
+  static const pleaseSelectImageWithHuman = 'pleaseSelectImageWithHuman';
+  static const imageMustContainsOneHuman = 'imageMustContainsOneHuman';
+
+}

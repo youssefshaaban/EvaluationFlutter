@@ -1,0 +1,87 @@
+import 'package:flutter/material.dart';
+import 'package:evaluation/gen/fonts.gen.dart';
+import 'package:evaluation/common/utils/theme/app_color_scheme.dart';
+import 'package:evaluation/common/utils/theme/app_theme.dart';
+
+extension AppTextThemeData on AppTheme {
+  TextTheme get textThemeData {
+    String fontFamily = FontFamily.apercu;
+    return TextTheme(
+        displayLarge: TextStyle(
+            fontSize: 57,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        displayMedium: TextStyle(
+            fontSize: 45,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        displaySmall: TextStyle(
+            fontSize: 36,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        headlineLarge: TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        headlineMedium: TextStyle(
+            fontSize: 28,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        headlineSmall: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        titleLarge: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        titleMedium: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        titleSmall: TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        labelLarge: TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        labelMedium: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        labelSmall: TextStyle(
+            fontSize: 11,
+            fontWeight: FontWeight.w700,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        bodyLarge: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface),
+        bodyMedium: TextStyle(
+          fontSize: 14,
+          fontWeight: FontWeight.w400,
+          fontFamily: fontFamily,
+          color: colorScheme.onSurface,
+        ),
+        bodySmall: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.w400,
+            fontFamily: fontFamily,
+            color: colorScheme.onSurface));
+  }
+}
